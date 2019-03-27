@@ -4,5 +4,6 @@ def my_collect(array)
   while i < array.length 
     collect = []
     
+    yield(array[i])
     
 
